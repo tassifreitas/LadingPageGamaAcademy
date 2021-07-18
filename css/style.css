@@ -1,0 +1,62 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-section-main{
+    background-image: url(../images/bgBlack.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.form-container{
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450;
+    display: grid;
+    top: 20px;
+    left: 20px;
+
+}
+.divTitle{
+    text-align: center;
+}
+.divText{
+    color:red;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:900;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    padding: 2em;  
+}
+footer{
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color:#000;
+    color: #fff;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background-color:#fff;
+    color: #000;
+
+}
